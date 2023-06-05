@@ -1,3 +1,4 @@
+import NextLink from 'next/link'
 import {
     Container,
     Heading,
@@ -17,13 +18,12 @@ const Page = () => {
                 p={3} 
                 mb={6} 
                 align="center">
-                    To download my CV, check it out on <a href='
+                    To download my CV, check it out on <NextLink href='
                         https://www.linkedin.com/in/dylan-hudson-dev/detail/overlay-view/
                         urn:li:fsd_profileTreasuryMedia:
                         (ACoAACW0_rIBb3kaJs_tMgPMrqf621IZaIUHZmo,1635475053682)/'
-                    >&quot;LinkedIn&quot;</a> or if you want to see my projects, navigate to <a href='
-                        /works/'
-                    >Works</a>
+                    >&quot;LinkedIn&quot;</NextLink> or if you want to see my projects, navigate to <NextLink href="/works/">Works</NextLink>
+                   
                 </Box>
                 
                 <Box display={{md:'flex'}}>
@@ -123,9 +123,9 @@ const Page = () => {
                         2nd Year:<br/>
                         Algorithms, Processes &amp; Data (D),<br/>
                         Operating Systems &amp; Language Translators (D),<br/> 
-                        <a href="/works/largemon" target="__blank">
+                        <NextLink href="/works/largemon" target="__blank">
                             Object Oriented Systems Development (A),
-                        </a><br/>
+                        </NextLink><br/>
                         Relational Databases &amp; Web Integration (C),<br/> 
                         Cyber Security (A),<br/>
                         Team Project (B)
@@ -140,17 +140,17 @@ const Page = () => {
                     <br/>
                     <Paragraph>
                         Final Year:<br/>
-                        <a href="/works/aivision" target="__blank">
+                        <NextLink href="/works/aivision" target="__blank">
                             AI Vision (A),
-                        </a><br/>
+                        </NextLink><br/>
                         Individual Project (A),<br/>
                         Large-Scale Software Engineering (B),<br/>
-                        <a href="/works/auctionroom" target="__blank">
+                        <NextLink href="/works/auctionroom" target="__blank">
                             Distributed &amp; Client Server Systems (A),
-                        </a><br/>
-                        <a href="/works/monitoringstation" target="__blank">
+                        </NextLink><br/>
+                        <NextLink href="/works/monitoringstation" target="__blank">
                             Distributed &amp; Client Server Systems - 2 (A),
-                        </a><br/>
+                        </NextLink><br/>
                         Advanced Web Programming (A)
                     </Paragraph>
                 </Section>

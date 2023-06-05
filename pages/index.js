@@ -22,13 +22,13 @@ const Page = () => {
                 mb={6} 
                 align="center">
                     To view the project file for this, check out the Github button, 
-                    otherwise find my favourite projects in <a href='/works/'>Works!</a>
+                    otherwise find my favourite projects in <NextLink href='/works/'>Works!</NextLink>
                 </Box>
                 
                 <Box display={{md:'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Dylan Hudson
+                            Vaishnavi Kancharla
                         </Heading>
                         <p>Junior Software Developer ( Java  |  C#  |  JavaScript )</p>
                     </Box>
@@ -46,7 +46,7 @@ const Page = () => {
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
-                            <Button righticon={<ChevronRightIcon/>} color="purple">
+                            <Button colorScheme='safetyOrange' righticon={<ChevronRightIcon/>} color="purple">
                                 Portfolio
                             </Button>
                         </NextLink>

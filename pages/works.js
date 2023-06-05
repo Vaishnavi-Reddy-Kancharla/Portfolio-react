@@ -19,7 +19,7 @@ const Works = () => (
     <Layout title="Works">
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
-                My Works
+              MM
             </Heading>
 
             <Section delay={0.2}>
